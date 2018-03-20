@@ -1,0 +1,12 @@
+.menu{
+	list-style-type: none;
+	padding: 0;
+	
+}
+.menu li{
+	width: 100px;
+float: left;
+position: relative;
+
+
+}
