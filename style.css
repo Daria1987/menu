@@ -15,3 +15,32 @@ content: "";
 display: block;
 clear: both;
 	}
+.menu a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: black;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	text-transform: lowercase;
+	border: 1px solid black;
+}
+.menu a:hover {
+	background: white;
+	color:black;
+}
+.Podmenu{
+list-style-type: none;	
+		padding: 0px;
+}
+.Podmenu {
+	display: none;
+	position: absolute;
+}
+.menu li:hover .Podmenu {
+	display: block;
+}
+	
